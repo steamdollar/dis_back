@@ -1,0 +1,6 @@
+node_modules
+package-lock.json
+.env
+dount-key.pem
+*.pem
+memo.md
