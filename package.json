@@ -23,5 +23,13 @@
     "qs": "^6.10.3",
     "supervisor": "^0.12.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steamdollar/dis_back.git"
+  },
+  "bugs": {
+    "url": "https://github.com/steamdollar/dis_back/issues"
+  },
+  "homepage": "https://github.com/steamdollar/dis_back#readme",
   "description": ""
 }

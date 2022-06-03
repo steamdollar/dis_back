@@ -3,7 +3,6 @@ const router = express.Router();
 const { pool } = require('../db.js');
 
 router.post('/info', async (req, res) => {
-    console.log('qweqweqeqwe')
     const station = req.body.payload;
     const sql = `SELECT *, 
                         (SELECT ROUND(AVG((flavor + atmosphere + cheap + service)/4), 1) 
